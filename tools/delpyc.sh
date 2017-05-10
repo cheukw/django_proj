@@ -1,2 +1,3 @@
-# !/usr/bin/bash
-find . -name \"*.pyc\" -delete
+# !/bin/bash
+find . -name '*.pyc' -exec rm {} \;
+
